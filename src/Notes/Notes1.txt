@@ -1,0 +1,43 @@
+Non-Primitive => Mutable =>  able to changed => object/ array/function
+
+Primitive =>  InMutable => actual value is hold => string/ bolean / undefined/ numbers 
+
+
+
+Redux 
+Action.jsx
+export const ADD_COUNT = "ADD_COUNT"
+
+export const addCount = (payload) => ({
+    type : ADD_COUNT,
+    payload
+})
+
+Reducer
+import { ADD_COUNT, ADD_TODO } from "./Action"
+
+const initstate = {
+    count: 11,
+    todo: []
+}
+
+export const reducer = (store = initstate, { type, payload }) => {
+    switch (type) {
+        case ADD_COUNT:
+            return { ...store, count: store.count + payload }
+            
+        default:
+            return store
+    }
+}
+
+Store.jsx
+import {createStore} from "redux"
+
+import { reducer } from "./Reducers"
+
+export const store = createStore (
+    reducer
+)
+
+onBlur

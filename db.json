@@ -1,0 +1,24 @@
+{
+    "dataapp" : [
+        {
+            "name" : "Pranav",
+            "color" : "red",
+            "city" : "Mumbai"
+        },
+        {
+            "name" : "Ajit",
+            "color" : "blue",
+            "city" : "Bihar"
+        },
+        {
+            "name" : "Raja",
+            "color" : "yellow",
+            "city" : "Kolkata"
+        },
+        {
+            "name" : "raja n Anu",
+            "color" : "pink",
+            "city" : "Masai"
+        }
+    ]
+}
