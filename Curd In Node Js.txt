@@ -1,0 +1,38 @@
+Src
+
+Index.js
+Controller.js
+Modal.js
+Db
+ 
+
+
+Modal
+Const dataSchema = new mongoose.schema({
+Title : {type : string , require : true},
+Name : {}
+
+}
+VerseionKey: false
+Timestamp:false
+)
+
+Module.export= dataschema
+
+
+
+Constroller
+
+Cosnt data = req(“./modal/controller”)
+
+Const route = express.Route()
+
+Router.get(“”, async(req,res)  => {
+Try{
+Cosnt bag = await data.find().lean().exec()
+Return bag
+}
+Catch(err){
+Return err
+}
+})
