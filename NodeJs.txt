@@ -1,0 +1,35 @@
+show dbs
+
+use interview
+
+show collections
+
+db.practice.find()
+
+//add data to database
+db.practice.insert({"key" : "value" , "key2" : "value2"})
+
+//update
+db.practice.update({"_id" :"value"}, {"key" : "value"})    //{where} , {what}
+
+//remove
+db.user.remove({"_id" : "11"})   // delete only one of by id
+db.dropDatabase   // delete full data base
+
+//filter
+db.user.find({"firstname" : "Rajashri"'})
+({"firstname" : {$eq : "r"}}) // equal      and not equal   $ne     and greater $gt   and less than $lt     or $or
+
+
+db.user.find({"age" : {$gt : 30} , "salary" : {$gt: 30000}})
+
+db.user.find({"age" : {$gt : 30} , "salary" : {$gt: 30000}})
+
+({$or :  [{key1 : value1 }   ,   {}   ]})
+
+(   { $and :  [ {key1 : value1} , {"key2" : "valu2" }            ]        }                  )
+
+
+//sort
+.sort({"key": 1})
+
