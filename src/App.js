@@ -35,7 +35,7 @@ function App() {
       {/* <Fetch/> */}
       {/* <Validation/> */}
       {/* <InstagramStories/> */}
-      {/* <ButtonInput/> */}
+      <ButtonInput/>
       {/* <Onclick3/> */}
       {/* <InsatStories/> */}
       {/* <TodoWithoutBack/> */}
@@ -68,7 +68,7 @@ function App() {
       {/* <ImageSlider/> */}
 
       {/* <DigitalClock/> */}
-      <LoginInputForm />
+      {/* <LoginInputForm /> */}
     </div>
   );
 }
