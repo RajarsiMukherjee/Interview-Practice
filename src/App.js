@@ -35,7 +35,7 @@ function App() {
       {/* <Fetch/> */}
       {/* <Validation/> */}
       {/* <InstagramStories/> */}
-      <ButtonInput/>
+      {/* <ButtonInput/> */}
       {/* <Onclick3/> */}
       {/* <InsatStories/> */}
       {/* <TodoWithoutBack/> */}
@@ -53,7 +53,7 @@ function App() {
 <Route path="h2" element={<Home2/>}/>
 </Routes> */}
 
-      {/* <InputNumber/> */}
+      <InputNumber/>
 
       {/* <StopAfterSomeTime/> */}
 
