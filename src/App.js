@@ -31,7 +31,7 @@ import LoginInputForm from "./Component/LoginIputForm/LoginIputForm";
 function App() {
   return (
     <div className="App">
-      {/* <Counter/> */}
+      <Counter/>
       {/* <Fetch/> */}
       {/* <Validation/> */}
       {/* <InstagramStories/> */}
@@ -53,7 +53,7 @@ function App() {
 <Route path="h2" element={<Home2/>}/>
 </Routes> */}
 
-      <InputNumber/>
+      {/* <InputNumber/> */}
 
       {/* <StopAfterSomeTime/> */}
 

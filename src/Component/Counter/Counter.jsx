@@ -14,9 +14,9 @@ export default function Counter() {
           count1 > 0 ? <button onClick={() => setCount(count1-1)}>Subtract</button> : <></>
       }
 
-      {
+      {/* {
         count1 %2 === 0 ? <><p className='Even'>Even</p></> : <><p className='Odd'>Odd</p></>
-      }
+      } */}
       {/* <button onClick={() => setCount(count1-1)}>Subtract</button> */}
     </div>
   )
