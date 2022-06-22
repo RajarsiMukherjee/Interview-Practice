@@ -27,11 +27,12 @@ import DataFetch from "./Component/DataFetch/DataFetch";
 import ImageSlider from "./Component/ImageSlider/ImageSlider";
 import DigitalClock from "./Component/DigitalClk/DigitalClk";
 import LoginInputForm from "./Component/LoginIputForm/LoginIputForm";
+import FilterApi from "./Component/FilterApi/FilterApi";
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/> */}
       {/* <Fetch/> */}
       {/* <Validation/> */}
       {/* <InstagramStories/> */}
@@ -69,6 +70,7 @@ function App() {
 
       {/* <DigitalClock/> */}
       {/* <LoginInputForm /> */}
+      <FilterApi />
     </div>
   );
 }
