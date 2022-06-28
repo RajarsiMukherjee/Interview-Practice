@@ -28,6 +28,7 @@ import ImageSlider from "./Component/ImageSlider/ImageSlider";
 import DigitalClock from "./Component/DigitalClk/DigitalClk";
 import LoginInputForm from "./Component/LoginIputForm/LoginIputForm";
 import FilterApi from "./Component/FilterApi/FilterApi";
+import SearchApi from "./Component/SearchApi/SearchApi";
 
 function App() {
   return (
@@ -70,7 +71,9 @@ function App() {
 
       {/* <DigitalClock/> */}
       {/* <LoginInputForm /> */}
-      <FilterApi />
+      {/* <FilterApi /> */}
+      
+      <SearchApi />
     </div>
   );
 }
