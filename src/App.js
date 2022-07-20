@@ -69,11 +69,11 @@ function App() {
 
       {/* <ImageSlider/> */}
 
-      {/* <DigitalClock/> */}
+      <DigitalClock/>
       {/* <LoginInputForm /> */}
       {/* <FilterApi /> */}
       
-      <SearchApi />
+      {/* <SearchApi /> */}
     </div>
   );
 }
