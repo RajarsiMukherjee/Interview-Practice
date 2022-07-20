@@ -30,6 +30,7 @@ import LoginInputForm from "./Component/LoginIputForm/LoginIputForm";
 import FilterApi from "./Component/FilterApi/FilterApi";
 import SearchApi from "./Component/SearchApi/SearchApi";
 import Todo from "./Component/Todo/Todo";
+import Toggle from "./Component/Toggle/Toggle";
 
 function App() {
   return (
@@ -75,7 +76,8 @@ function App() {
       {/* <FilterApi /> */}
       
       {/* <SearchApi /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <Toggle />
     </div>
   );
 }
