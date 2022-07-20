@@ -29,6 +29,7 @@ import DigitalClock from "./Component/DigitalClk/DigitalClk";
 import LoginInputForm from "./Component/LoginIputForm/LoginIputForm";
 import FilterApi from "./Component/FilterApi/FilterApi";
 import SearchApi from "./Component/SearchApi/SearchApi";
+import Todo from "./Component/Todo/Todo";
 
 function App() {
   return (
@@ -69,11 +70,12 @@ function App() {
 
       {/* <ImageSlider/> */}
 
-      <DigitalClock/>
+      {/* <DigitalClock/> */}
       {/* <LoginInputForm /> */}
       {/* <FilterApi /> */}
       
       {/* <SearchApi /> */}
+      <Todo />
     </div>
   );
 }
