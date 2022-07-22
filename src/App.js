@@ -31,6 +31,7 @@ import FilterApi from "./Component/FilterApi/FilterApi";
 import SearchApi from "./Component/SearchApi/SearchApi";
 import Todo from "./Component/Todo/Todo";
 import Toggle from "./Component/Toggle/Toggle";
+import SearchFromArr from "./Component/SearchFromArr/SearchFromArr";
 
 function App() {
   return (
@@ -77,7 +78,8 @@ function App() {
       
       {/* <SearchApi /> */}
       {/* <Todo /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <SearchFromArr />
     </div>
   );
 }
