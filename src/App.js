@@ -32,6 +32,7 @@ import SearchApi from "./Component/SearchApi/SearchApi";
 import Todo from "./Component/Todo/Todo";
 import Toggle from "./Component/Toggle/Toggle";
 import SearchFromArr from "./Component/SearchFromArr/SearchFromArr";
+import Sriventure from "./Component/Sriventure/Sriventure";
 
 function App() {
   return (
@@ -79,7 +80,8 @@ function App() {
       {/* <SearchApi /> */}
       {/* <Todo /> */}
       {/* <Toggle /> */}
-      <SearchFromArr />
+      {/* <SearchFromArr /> */}
+      <Sriventure />
     </div>
   );
 }
